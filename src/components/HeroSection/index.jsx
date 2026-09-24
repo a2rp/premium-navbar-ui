@@ -43,7 +43,7 @@ function HeroSection() {
                 <div className="heroGallery">
                     <div className="galleryCard mainCard">
                         <img
-                            src="https://picsum.photos/seed/navcraft-main/900/1100"
+                            src="/premium-navbar-ui/images/navcraft-main.jpg"
                             alt="Editorial architecture"
                         />
 
@@ -72,7 +72,7 @@ function HeroSection() {
 
                     <div className="galleryCard sideCard sideCardTop">
                         <img
-                            src="https://picsum.photos/seed/navcraft-detail/700/700"
+                            src="/premium-navbar-ui/images/navcraft-detail.jpg"
                             alt="Premium editorial detail"
                         />
 
@@ -84,7 +84,7 @@ function HeroSection() {
 
                     <div className="galleryCard sideCard sideCardBottom">
                         <img
-                            src="https://picsum.photos/seed/navcraft-object/700/850"
+                            src="/premium-navbar-ui/images/navcraft-object.jpg"
                             alt="Modern product composition"
                         />
 

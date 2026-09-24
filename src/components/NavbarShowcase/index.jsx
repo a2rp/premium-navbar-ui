@@ -76,7 +76,7 @@ function NavbarShowcase() {
                             </div>
 
                             <img
-                                src="https://picsum.photos/seed/navcraft-editorial/1200/850"
+                                src="/premium-navbar-ui/images/navcraft-editorial.jpg"
                                 alt="Editorial fashion composition"
                             />
                         </div>
@@ -130,7 +130,7 @@ function NavbarShowcase() {
 
                         <div className="commerceBody">
                             <img
-                                src="https://picsum.photos/seed/navcraft-commerce/1400/800"
+                                src="/premium-navbar-ui/images/navcraft-commerce.jpg"
                                 alt="Premium product environment"
                             />
 

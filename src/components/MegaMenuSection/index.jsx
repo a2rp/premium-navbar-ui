@@ -145,7 +145,7 @@ function MegaMenuSection() {
 
                     <a href="#mega-menu" className="featureCard">
                         <img
-                            src="https://picsum.photos/seed/navcraft-mega-menu/900/700"
+                            src="/premium-navbar-ui/images/navcraft-mega-menu.jpg"
                             alt="Featured design collection"
                         />
 
@@ -181,7 +181,7 @@ function MegaMenuSection() {
                     </div>
 
                     <img
-                        src="https://picsum.photos/seed/navcraft-page-preview/1500/700"
+                        src="/premium-navbar-ui/images/navcraft-page-preview.jpg"
                         alt="Minimal architecture"
                     />
                 </div>

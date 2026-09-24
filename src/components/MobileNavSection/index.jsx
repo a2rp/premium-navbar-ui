@@ -95,7 +95,7 @@ function MobileNavSection() {
                     <div className="phone phoneMain">
                         <div className="phoneScreen">
                             <img
-                                src="https://picsum.photos/seed/navcraft-mobile-main/700/1200"
+                                src="/premium-navbar-ui/images/navcraft-mobile-main.jpg"
                                 alt="Mobile travel interface"
                             />
 
@@ -187,7 +187,7 @@ function MobileNavSection() {
 
                             <a href="#mobile-nav" className="featuredStory">
                                 <img
-                                    src="https://picsum.photos/seed/navcraft-mobile-drawer/700/500"
+                                    src="/premium-navbar-ui/images/navcraft-mobile-drawer.jpg"
                                     alt="Featured destination"
                                 />
 

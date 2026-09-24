@@ -32,7 +32,7 @@ function FloatingNavSection() {
             <div className="demoStage">
                 <img
                     className="backgroundImage"
-                    src="https://picsum.photos/seed/navcraft-floating/1800/1100"
+                    src="/premium-navbar-ui/images/navcraft-floating.jpg"
                     alt="Premium travel landscape"
                 />
 

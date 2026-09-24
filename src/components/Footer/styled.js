@@ -110,6 +110,56 @@ export const Styled = {
             color: #aeb2a7;
         }
 
+        .footerBottom a:hover {
+            color: #ffffff;
+        }
+
+        .iconLinks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .iconLinks a {
+            width: 34px;
+            height: 34px;
+            display: grid;
+            place-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.11);
+            border-radius: 10px;
+            color: #c5c8be;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, text-shadow 0.2s ease;
+        }
+
+        .iconLinks a:hover,
+        .iconLinks a:focus-visible {
+            border-color: rgba(255, 255, 255, 0.6);
+            color: #ffffff;
+            box-shadow: 0 0 18px rgba(255, 255, 255, 0.14);
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.28);
+        }
+
+        .iconLinks svg {
+            width: 15px;
+            height: 15px;
+        }
+
+        .repositoryLink {
+            width: 34px;
+            height: 34px;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.11);
+            border-radius: 10px;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, text-shadow 0.2s ease;
+        }
+
+        .repositoryLink:hover,
+        .repositoryLink:focus-visible {
+            border-color: rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 18px rgba(255, 255, 255, 0.14);
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.28);
+        }
+
         @media (max-width: 900px) {
             .footerTop {
                 grid-template-columns: 1fr;
@@ -117,6 +167,7 @@ export const Styled = {
 
             .footerLinks {
                 max-width: 600px;
+                grid-template-columns: repeat(3, minmax(120px, 1fr));
             }
         }
 
